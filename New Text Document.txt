@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valerie Gallery's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6e6; /* Light pink background */
+            color: #333;
+        }
+        header {
+            background-color: #ff4d4d; /* Red background for header */
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            margin: 2rem;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #ff4d4d; /* Red color for headings */
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+        .contact, .blog {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ffe6e6; /* Light pink background for contact and blog sections */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Valerie Gallery's Personal Webpage</h1>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>Hi, my name is VALERIE GALLERY.</p>
+    </section>
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Orphanage-1848-HighSmith.jpeg/1200px-Orphanage-1848-HighSmith.jpeg" alt="Orphanage Image 1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Orphanage-1848-HighSmith.jpeg" alt="Orphanage Image 2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Orphanage-corridor.jpg" alt="Orphanage Image 3">
+    </section>
+    <section class="blog">
+        <h2>Blog</h2>
+        <p>We provide help to the poor, orphans, and other less privileged people. We also have a beauty channel on YouTube called <strong>VALERIE GALLERY</strong>.</p>
+        <p>This foundation is supported by <strong>SILO CONSTRUCTION COMPANY</strong>.</p>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Phone: 08138863997</p>
+    </section>
+</body>
+</html>
